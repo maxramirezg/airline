@@ -1,0 +1,125 @@
+
+
+/*estyles*/
+
+
+body{
+    background-color: rgb(53, 53, 53);
+}
+header{
+    position: fixed;    
+    margin: 0px;
+}
+
+.menu{
+    margin-left: 20px;
+}
+.menu li {
+    list-style: none;
+    padding: 0;
+    width: 380px; 
+    height: 100px;  
+    
+}
+/*menu secundario
+*/
+.menu li ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 380px;
+    margin: auto;
+    
+}    
+.menu li{
+    display:inline;
+    text-align: left;
+}
+.menu li a{
+    background-color:rgb(11, 54, 68);
+    color: aliceblue;
+    text-decoration: none;
+    padding: 30px 30px;
+    display: block;
+    text-align: left;
+    margin-top: -28px;
+}
+.menu > li a:hover {
+    background-color: rgb(29, 107, 133);
+}
+.menu > li{
+    float: left;
+    
+}
+.menu li ul{
+    margin-top: 28px;
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.menu li:hover > ul {
+    display: block;
+    
+}
+/**
+**/
+.container{
+    background-color: rgb(42, 79, 121);
+    width: 70%;
+    display: -moz-deck;
+    margin: 0px auto;
+    text-align: center;
+    
+}   
+    
+.Vacio{
+    background-color: rgb(53, 53, 53);
+
+    width: 80.3%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 80px;
+}
+
+.Titcontainer{
+    text-align: center; 
+    margin: 20px auto;
+    padding: 20px;
+      
+}
+
+html{
+    scroll-behavior: 800ms;
+    
+}
+
+
+
+
+.TituloC{
+    background-color: rgb(43, 226, 171);
+     
+}
+
+.Item{
+    background-color: rgb(53, 53, 53); 
+    padding: 500px 500px;
+    display: auto;
+    padding-top: 10%;   
+   
+
+}
+
+.text1{
+    margin-left: 20px;
+
+}
+.Item p {
+    color: aliceblue;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

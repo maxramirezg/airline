@@ -1,0 +1,311 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(53, 53, 53);
+}
+.distribucion {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr );
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 4px 4px 0 #000 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+}
+.canada img{
+    width: 350px;
+    height: 400px;
+    margin-top: 50px;
+    transition: all 300ms;
+    position: relative;
+    cursor: pointer;
+}
+.canada img:hover{
+    transform: scale(1.15);
+}
+.distribucion .contcana{
+    margin-left: -50px;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+.contcana h3{
+    font-size: 40px;
+    color: #fdfafa;
+    text-shadow: 4px 4px 0 #000 ;
+}
+
+.contcana p{
+    font-size: 20px;
+    margin-top: -30px;
+    color: #fdfafa;
+    text-shadow: 1px 1px 0 #000 ;
+}
+.contcana li{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+    color: #fdfafa;
+    text-shadow: 1px 1px 0 #000 ;
+}
+
+.rusia img{
+    width: 350px;
+    height: 400px;
+    margin-top: 50px;
+    transition: all 300ms;
+    position: relative;
+    cursor: pointer;
+    margin-left: -150px;
+}
+.rusia img:hover{
+    transform: scale(1.15);
+}
+.distribucion .contrus{
+    margin-left: -80px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.contrus h3{
+    font-size: 40px;
+    color: #fdfafa;
+    text-shadow: 4px 4px 0 #000 ;
+}
+
+.contrus p{
+    font-size: 20px;
+    margin-top: -30px;
+    color: #fdfafa;
+    text-shadow: 1px 1px 0 #000 ;
+}
+.contrus li{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+    color: #fdfafa;
+    text-shadow: 1px 1px 0 #000 ;
+}
+.peru img{
+    width: 350px;
+    height: 400px;
+    margin-top: 50px;
+    transition: all 300ms;
+    position: relative;
+    cursor: pointer;
+}
+.peru img:hover{
+    transform: scale(1.15);
+}
+.distribucion .contperu{
+    margin-left: -50px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.contperu h3{
+    font-size: 40px;
+    color: #fdfafa;
+    text-shadow: 4px 4px 0 #000 ;
+}
+
+.contperu p{
+    font-size: 20px;
+    margin-top: -30px;
+    color: #fdfafa;
+    text-shadow: 1px 1px 0 #000 ;
+}
+.contperu li{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+    color: #fdfafa;
+    text-shadow: 1px 1px 0 #000 ;
+}
+.chile img{
+    width: 350px;
+    height: 400px;
+    margin-top: 50px;
+    transition: all 300ms;
+    position: relative;
+    cursor: pointer;
+    margin-left: -150px;
+}
+.chile img:hover{
+    transform: scale(1.15);
+}
+.distribucion .contchil{
+    margin-left: -50px;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+.contchil h3{
+    font-size: 40px;
+    color: #fdfafa;
+    text-shadow: 4px 4px 0 #000 ;
+}
+
+.contchil p{
+    font-size: 20px;
+    margin-top: -30px;
+    color: #fdfafa;
+    text-shadow: 1px 1px 0 #000 ;
+}
+.contchil li{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+    color: #fdfafa;
+    text-shadow: 1px 1px 0 #000 ;
+}
+
+.islanda img{
+    width: 350px;
+    height: 400px;
+    margin-top: 50px;
+    transition: all 300ms;
+    position: relative;
+    cursor: pointer;
+
+}
+.islanda img:hover{
+    transform: scale(1.15);
+}
+.distribucion .contisla{
+    margin-left: -50px;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+.contisla h3{
+    font-size: 40px;
+    color: #fdfafa;
+    text-shadow: 4px 4px 0 #000 ;
+}
+
+.contisla p{
+    font-size: 20px;
+    margin-top: -30px;
+    color: #fdfafa;
+    text-shadow: 1px 1px 0 #000 ;
+}
+.contisla li{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+    color: #fdfafa;
+    text-shadow: 1px 1px 0 #000 ;
+}
+.cuba img{
+    width: 350px;
+    height: 400px;
+    margin-top: 50px;
+    transition: all 300ms;
+    position: relative;
+    cursor: pointer;
+    margin-left: -150px;
+}
+.cuba img:hover{
+    transform: scale(1.15);
+}
+.distribucion .contcuba{
+    margin-left: -50px;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+.contcuba h3{
+    font-size: 40px;
+    color: #fdfafa;
+    text-shadow: 4px 4px 0 #000 ;
+}
+
+.contcuba p{
+    font-size: 20px;
+    margin-top: -30px;
+    color: #fdfafa;
+    text-shadow: 1px 1px 0 #000 ;
+}
+.contcuba li{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+    color: #fdfafa;
+    text-shadow: 1px 1px 0 #000 ;
+}
+
+.alaska img{
+    width: 350px;
+    height: 400px;
+    margin-top: 50px;
+    transition: all 300ms;
+    position: relative;
+    cursor: pointer;
+    margin-left: -150px;
+}
+.alaska img:hover{
+    transform: scale(1.15);
+}
+.distribucion .contalask{
+    margin-left: -50px;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+.contalask h3{
+    font-size: 40px;
+    color: #fdfafa;
+    text-shadow: 4px 4px 0 #000 ;
+}
+
+.contalask p{
+    font-size: 20px;
+    margin-top: -30px;
+    color: #fdfafa;
+    text-shadow: 1px 1px 0 #000 ;
+}
+.contalask li{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+    color: #fdfafa;
+    text-shadow: 1px 1px 0 #000 ;
+}
+.china img{
+    width: 350px;
+    height: 400px;    
+    margin-top: 50px;
+    transition: all 300ms;
+    position: relative;
+    cursor: pointer;
+}
+.china img:hover{
+    transform: scale(1.15);
+}
+.distribucion .contchina{
+    margin-left: -50px;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+.contchina h3{
+    font-size: 40px;
+    color: #fdfafa;
+    text-shadow: 4px 4px 0 #000 ;
+}
+
+.contchina p{
+    font-size: 20px;
+    margin-top: -30px;
+    color: #fdfafa;
+    text-shadow: 1px 1px 0 #000 ;
+}
+.contchina li{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+    color: #fdfafa;
+    text-shadow: 1px 1px 0 #000 ;
+}
+
+
+
